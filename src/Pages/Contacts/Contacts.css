@@ -1,0 +1,91 @@
+.contacts_us_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #f5f3f0 0%, #eae4dd 100%);
+    padding: 50px;
+}
+.contact_us_text{
+    font-size: 5vw;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.contact_type_wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+}
+.contact_type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background: linear-gradient(135deg, #f5f3f0 0%, #eae4dd 100%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact_type img{
+    width: 30%
+}
+.contact_type_name{
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+.contact_type_name_description {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact_button{
+    width: 70%;
+    background-color: #d27d56;
+    padding: 0.8rem 2rem;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-top: auto; /* Прижимает кнопку к нижнему краю */
+}
+
+.contact_button:hover {
+    background-color: #b86547;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 1000px) {
+    .contact_type_wrapper{
+        flex-direction: column;
+        width: 100%;
+        justify-content: unset;
+        align-items: center;
+        gap: 40px
+    }
+    .contact_type {
+        width: 70%
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    .contact_type {
+        width: 90%
+    }
+    .contact_us_text{
+        font-size: 10vw;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .contact_type {
+        width: 100%
+    }
+
+}
