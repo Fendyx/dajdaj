@@ -6,15 +6,16 @@ import Contacts from "./Pages/Contacts/Contacts";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/dajdaj">
       <Routes>
-        <Route path="/dajdaj" element={<Home />} />
-        <Route path="/dajdaj/products" element={<Products />} />
-        <Route path="/dajdaj/contacts" element={<Contacts />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
+
 

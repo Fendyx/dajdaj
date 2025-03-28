@@ -12,7 +12,7 @@ function Products_component() {
                     <div class="image-section">
                     <model-viewer
                     id="ballViewer"
-                    src="/3d_objects/ball/ball.gltf"
+                    src="/dajdaj/3d_objects/ball/ball.gltf"
                     shadow-intensity="1"
                     autoplay
                     camera-orbit="100deg 75deg "
@@ -78,7 +78,7 @@ function Products_component() {
           <div class="image-section">
             <model-viewer
           id="ballViewer"
-          src="/3d_objects/male_bodybuilder/another_stand.gltf"
+          src="/dajdaj/3d_objects/male_bodybuilder/another_stand.gltf"
           shadow-intensity="1"
           autoplay
           camera-orbit="-75deg 75deg "
@@ -144,7 +144,7 @@ function Products_component() {
           <div class="image-section">
             <model-viewer
           id="ballViewer"
-          src="./3d_objects/female_bodybuilder/female_bodybuilder.gltf"
+          src="/dajdaj/3d_objects/female_bodybuilder/female_bodybuilder.gltf"
           shadow-intensity="1"
           autoplay
           camera-orbit="0deg 75deg"
