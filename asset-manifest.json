@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/https//Fendyx.github.io/dajdaj/static/css/main.0daaf45f.css",
-    "main.js": "/https//Fendyx.github.io/dajdaj/static/js/main.5d796981.js",
-    "static/js/453.36265dad.chunk.js": "/https//Fendyx.github.io/dajdaj/static/js/453.36265dad.chunk.js",
-    "static/media/2_figures_for_site.png": "/https//Fendyx.github.io/dajdaj/static/media/2_figures_for_site.4203b354efe46925c676.png",
-    "static/media/ball_heart_picture_1.png": "/https//Fendyx.github.io/dajdaj/static/media/ball_heart_picture_1.cdbeff91cd5a8fb6500a.png",
-    "static/media/arnold_wooden stand.png": "/https//Fendyx.github.io/dajdaj/static/media/arnold_wooden stand.1d4119bde782d5489357.png",
-    "static/media/female_wooden_stand.png": "/https//Fendyx.github.io/dajdaj/static/media/female_wooden_stand.186c4109dbe4e45ddf91.png",
-    "static/media/dajdaj_logo.png": "/https//Fendyx.github.io/dajdaj/static/media/dajdaj_logo.fb6b1417d8d79dc3e94d.png",
-    "static/media/footer_logo.png": "/https//Fendyx.github.io/dajdaj/static/media/footer_logo.e3a7d14eee9ebd6f263b.png",
-    "static/media/facebook_logo.png": "/https//Fendyx.github.io/dajdaj/static/media/facebook_logo.385a7ffd17395c3e70fe.png",
-    "index.html": "/https//Fendyx.github.io/dajdaj/index.html",
-    "main.0daaf45f.css.map": "/https//Fendyx.github.io/dajdaj/static/css/main.0daaf45f.css.map",
-    "main.5d796981.js.map": "/https//Fendyx.github.io/dajdaj/static/js/main.5d796981.js.map",
-    "453.36265dad.chunk.js.map": "/https//Fendyx.github.io/dajdaj/static/js/453.36265dad.chunk.js.map"
+    "main.css": "/dajdaj/static/css/main.3e63fcb0.css",
+    "main.js": "/dajdaj/static/js/main.65848901.js",
+    "static/js/453.36265dad.chunk.js": "/dajdaj/static/js/453.36265dad.chunk.js",
+    "static/media/2_figures_for_site.png": "/dajdaj/static/media/2_figures_for_site.4203b354efe46925c676.png",
+    "static/media/ball_heart_picture_1.png": "/dajdaj/static/media/ball_heart_picture_1.cdbeff91cd5a8fb6500a.png",
+    "static/media/arnold_wooden stand.png": "/dajdaj/static/media/arnold_wooden stand.1d4119bde782d5489357.png",
+    "static/media/female_wooden_stand.png": "/dajdaj/static/media/female_wooden_stand.186c4109dbe4e45ddf91.png",
+    "static/media/dajdaj_logo.png": "/dajdaj/static/media/dajdaj_logo.fb6b1417d8d79dc3e94d.png",
+    "static/media/footer_logo.png": "/dajdaj/static/media/footer_logo.e3a7d14eee9ebd6f263b.png",
+    "static/media/facebook_logo.png": "/dajdaj/static/media/facebook_logo.385a7ffd17395c3e70fe.png",
+    "index.html": "/dajdaj/index.html",
+    "main.3e63fcb0.css.map": "/dajdaj/static/css/main.3e63fcb0.css.map",
+    "main.65848901.js.map": "/dajdaj/static/js/main.65848901.js.map",
+    "453.36265dad.chunk.js.map": "/dajdaj/static/js/453.36265dad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0daaf45f.css",
-    "static/js/main.5d796981.js"
+    "static/css/main.3e63fcb0.css",
+    "static/js/main.65848901.js"
   ]
 }
