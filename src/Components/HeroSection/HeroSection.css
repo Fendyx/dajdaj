@@ -115,11 +115,12 @@
     width: 50%;
     height: 30px;
     background-color: #E5DED8;
+    font-weight: 600;
     border-radius: 5px;
     color: #1E3A5F;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 .shopnow_button {
@@ -132,7 +133,7 @@
     text-align: center;
     align-content: center;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 20px;
 }
 @media (max-width: 1000px){

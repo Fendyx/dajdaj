@@ -14,7 +14,7 @@ function Contacts() {
                 <div class="contact_type">
                   <img src={mail_logo}></img>
                   <span class="contact_type_name">Email</span>
-                  <span class="contact_type_name_description">Describe your problem in detail im one Email</span>
+                  <span class="contact_type_name_description">Describe your problem in detail in one Email</span>
                   <button class="contact_button">Contact us</button>
                 </div>
 

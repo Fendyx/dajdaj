@@ -15,12 +15,12 @@ footer{
     flex-direction: row;
 }
 .img_and_links img{
-    width: 40%;
+    width: 30%;
 }
 .link_container_wrapper{
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
     background-color: #165A43;
     padding-top: 30px;
@@ -32,13 +32,14 @@ footer{
     flex-direction: column;
 }
 .link_title{
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 500;
 }
 .footer_link{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 .footer_slogan{
     width: 100%;

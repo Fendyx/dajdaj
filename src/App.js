@@ -4,9 +4,11 @@ import Home from "./Pages/Home/Home";
 import Products from "./Pages/Products/Products";
 import Contacts from "./Pages/Contacts/Contacts";
 
+const isProduction = window.location.hostname !== "localhost";
+
 function App() {
   return (
-    <Router basename="/dajdaj">
+    <Router basename={isProduction ? "/dajdaj" : ""}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
@@ -17,5 +19,6 @@ function App() {
 }
 
 export default App;
+
 
 
