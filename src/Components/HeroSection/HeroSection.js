@@ -1,7 +1,7 @@
 import "./HeroSection.css";
-import male from "../../img/arnold_wooden stand.png"
-import female from "../../img/female_wooden_stand.png"
-import ball from "../../img/ball_heart_picture_1.png";
+import male from "../../img/arnold_wooden stand_1.png"
+import female from "../../img/female_wooden_stand_1.png"
+import ball from "../../img/ball_heart_picture_2.png";
 
 function HeroSection() {
     return (
