@@ -86,6 +86,7 @@ function Products_component() {
           camera-orbit="-75deg 75deg "
           camera-controls
           disable-zoom
+          loading="lazy"
           
           >
         </model-viewer>
@@ -152,6 +153,7 @@ function Products_component() {
           camera-orbit="0deg 75deg"
           camera-controls
           disable-zoom
+          loading="lazy"
           >
         </model-viewer>
           </div>
