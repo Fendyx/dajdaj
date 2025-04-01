@@ -167,7 +167,7 @@
     font-weight: 800;
     cursor: pointer;
     border-radius: 12px;
-    padding: 12px 20px 12px 44px;
+    padding: 12px 12px 12px 12px;
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -195,6 +195,17 @@
     bottom: 8px;
     left: 8px;
   }
+  #progress-bar {
+    display: none;
+    width: 0;
+    height: 4px;
+    background: #ff9800;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
 
   
   @media (min-width: 1600px) {
@@ -240,6 +251,14 @@
       width: 100%;
       text-align: center;
     }
+
+    #lazy-load-poster {
+      background-size: 65%;
+    }
+    #button-load {
+      left: 80%;
+      top: 50%;
+  }
   }
   
   @media (max-width: 768px) {
@@ -251,6 +270,13 @@
     .feature-details p {
       font-size: 0.9rem;
     }
+    #lazy-load-poster {
+      background-size: 100%;
+    }
+    #button-load {
+      left: 80%;
+      top: 40%;
+  }
   
     model-viewer {
       height: 350px;
@@ -278,6 +304,9 @@
   
     .price-tag {
       font-size: 1.5rem;
+    }
+    #lazy-load-poster {
+      background-size: 120%;
     }
   
     model-viewer {

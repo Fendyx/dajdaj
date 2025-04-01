@@ -21,6 +21,40 @@ function Products_component() {
         };
       }, []);
 
+      useEffect(() => {
+        const button = document.getElementById("button-load");
+        const modelViewer = document.getElementById("lazy-load");
+        const progressBar = document.getElementById("progress-bar");
+        const buttonText = document.getElementById("button-text");
+
+        if (!button || !modelViewer) return; // Защита от ошибки
+
+        button.addEventListener("click", () => {
+            buttonText.textContent = "Loading...";
+            progressBar.style.display = "block";
+
+            let progress = 0;
+            const interval = setInterval(() => {
+                if (progress >= 100) {
+                    clearInterval(interval);
+                } else {
+                    progress += 10;
+                    progressBar.style.width = progress + "%";
+                }
+            }, 300);
+
+            modelViewer.reveal = "auto";
+
+            modelViewer.addEventListener("load", () => {
+                clearInterval(interval);
+                progressBar.style.width = "100%";
+                setTimeout(() => {
+                    button.style.display = "none";
+                }, 500);
+            });
+        });
+    }, []);
+
     return (
         <div>
 
@@ -240,7 +274,10 @@ function Products_component() {
         >
             
             <div id="lazy-load-poster" slot="poster"></div>
-            <button id="button-load" slot="poster">Show me 3D model</button>
+            <button id="button-load" slot="poster">
+                <span id="button-text">Show me 3D model</span>
+                <span id="progress-bar"></span>
+            </button>
       </model-viewer>
           </div>
       
