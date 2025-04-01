@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dajdaj/static/css/main.cb2ae4ad.css",
-    "main.js": "/dajdaj/static/js/main.23cf67e4.js",
+    "main.css": "/dajdaj/static/css/main.ec65352f.css",
+    "main.js": "/dajdaj/static/js/main.79cc9d82.js",
     "static/js/453.36265dad.chunk.js": "/dajdaj/static/js/453.36265dad.chunk.js",
     "static/media/ball_heart_picture_3.png": "/dajdaj/static/media/ball_heart_picture_3.2329354999af827158e0.png",
     "static/media/female_wooden_stand_2.png": "/dajdaj/static/media/female_wooden_stand_2.29ac290b103f302a9e73.png",
@@ -11,12 +11,12 @@
     "static/media/footer_logo.png": "/dajdaj/static/media/footer_logo.e3a7d14eee9ebd6f263b.png",
     "static/media/facebook_logo.png": "/dajdaj/static/media/facebook_logo.385a7ffd17395c3e70fe.png",
     "index.html": "/dajdaj/index.html",
-    "main.cb2ae4ad.css.map": "/dajdaj/static/css/main.cb2ae4ad.css.map",
-    "main.23cf67e4.js.map": "/dajdaj/static/js/main.23cf67e4.js.map",
+    "main.ec65352f.css.map": "/dajdaj/static/css/main.ec65352f.css.map",
+    "main.79cc9d82.js.map": "/dajdaj/static/js/main.79cc9d82.js.map",
     "453.36265dad.chunk.js.map": "/dajdaj/static/js/453.36265dad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb2ae4ad.css",
-    "static/js/main.23cf67e4.js"
+    "static/css/main.ec65352f.css",
+    "static/js/main.79cc9d82.js"
   ]
 }
