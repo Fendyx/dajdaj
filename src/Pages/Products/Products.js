@@ -1,9 +1,9 @@
 import Header from "../../Components/Header/Header.js";
 import Footer from "../../Components/Footer/Footer.js";
 import "./Products.css";
-import Arnold from "../../img/arnold_wooden stand.png";
-import Female_bodybuilder from "../../img/female_wooden_stand.png";
-import Ball from "../../img/ball_heart_picture_1.png"
+import Arnold from "../../img/arnold_wooden_stand_2.png";
+import Female_bodybuilder from "../../img/female_wooden_stand_2.png";
+import Ball from "../../img/ball_heart_picture_3.png"
 
 function Products() {
   return (

@@ -144,6 +144,58 @@
     margin: 0;
     
   }
+
+
+  #lazy-load-poster {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../../img/female_wooden_stand_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140%;
+  }
+
+  #button-load {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 12px 20px 12px 44px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translateX(-50%);
+    z-index: 100;
+}
+
+#button-load:hover {
+    background: linear-gradient(135deg, #fda085 0%, #f6d365 100%);
+    
+}
+
+
+  .controls {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    bottom: 8px;
+    left: 8px;
+  }
+
   
   @media (min-width: 1600px) {
     model-viewer {
