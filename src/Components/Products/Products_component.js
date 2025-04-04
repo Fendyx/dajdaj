@@ -1,6 +1,8 @@
 import "./Products.css";
 import '@google/model-viewer/dist/model-viewer';
 import Arnold_image from "../../img/arnold_wooden_stand_2.png";
+import Female_image from "../../img/female_wooden_stand_2.png";
+
 import { useEffect } from "react";
 
 
@@ -206,6 +208,7 @@ function Products_component() {
           camera-controls
           disable-zoom
           loading="lazy"
+          poster={Female_image}
           >
         </model-viewer>
           </div>
